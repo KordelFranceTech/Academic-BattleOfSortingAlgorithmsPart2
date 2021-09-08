@@ -1,0 +1,107 @@
+Summary of all 105 analyzed sorting runs
+#,data_type,n,algorithm,comparisons,exchanges,comparison trajectory equation,exchange trajectory equation,time
+1,sorted	,50,quicksort,0,49,could not calculate regression		, y = 1.0 (x) ^ 0.9999 w/ correlation 100.0 %,execution time: 0.002038 s
+2,sorted	,500,quicksort,0,499,could not calculate regression		, y = 1.0 (x) ^ 0.9999 w/ correlation 100.0 %,execution time: 0.044417 s
+3,sorted	,1000,quicksort,0,999,could not calculate regression		, y = 1.0 (x) ^ 0.9999 w/ correlation 100.0 %,execution time: 0.157924 s
+4,sorted	,1500,quicksort,0,1499,could not calculate regression		, y = 1.0 (x) ^ 0.9999 w/ correlation 100.0 %,execution time: 0.225490 s
+5,sorted	,2000,quicksort,0,1999,could not calculate regression		, y = 1.0 (x) ^ 0.9999 w/ correlation 100.0 %,execution time: 0.440016 s
+6,sorted	,50,quicksort_rand,128,160, y = 1.0052 (x) ^ 1.2355 w/ correlation 100.0 %, y = 1.0052 (x) ^ 1.2509 w/ correlation 100.0 %,execution time: 0.001416 s
+7,sorted	,500,quicksort_rand,1899,2221, y = 1.0052 (x) ^ 1.2355 w/ correlation 100.0 %, y = 1.0052 (x) ^ 1.2509 w/ correlation 100.0 %,execution time: 0.006615 s
+8,sorted	,1000,quicksort_rand,5619,6242, y = 1.0052 (x) ^ 1.2355 w/ correlation 100.0 %, y = 1.0052 (x) ^ 1.2509 w/ correlation 100.0 %,execution time: 0.016193 s
+9,sorted	,1500,quicksort_rand,7720,8649, y = 1.0052 (x) ^ 1.2355 w/ correlation 100.0 %, y = 1.0052 (x) ^ 1.2509 w/ correlation 100.0 %,execution time: 0.012560 s
+10,sorted	,2000,quicksort_rand,12613,13879, y = 1.0052 (x) ^ 1.2355 w/ correlation 100.0 %, y = 1.0052 (x) ^ 1.2509 w/ correlation 100.0 %,execution time: 0.020045 s
+11,sorted	,50,quicksort_mot,86,132, y = 1.001 (x) ^ 1.0957 w/ correlation 100.0 %, y = 1.0017 (x) ^ 1.1528 w/ correlation 100.0 %,execution time: 0.000530 s
+12,sorted	,500,quicksort_mot,977,1470, y = 1.001 (x) ^ 1.0957 w/ correlation 100.0 %, y = 1.0017 (x) ^ 1.1528 w/ correlation 100.0 %,execution time: 0.021278 s
+13,sorted	,1000,quicksort_mot,1975,2967, y = 1.001 (x) ^ 1.0957 w/ correlation 100.0 %, y = 1.0017 (x) ^ 1.1528 w/ correlation 100.0 %,execution time: 0.067041 s
+14,sorted	,1500,quicksort_mot,2973,4463, y = 1.001 (x) ^ 1.0957 w/ correlation 100.0 %, y = 1.0017 (x) ^ 1.1528 w/ correlation 100.0 %,execution time: 0.078673 s
+15,sorted	,2000,quicksort_mot,3973,5964, y = 1.001 (x) ^ 1.0957 w/ correlation 100.0 %, y = 1.0017 (x) ^ 1.1528 w/ correlation 100.0 %,execution time: 0.165955 s
+16,sorted	,50,natural_merge,1,0,could not calculate regression		,could not calculate regression		,execution time: 0.000000 s
+17,sorted	,500,natural_merge,1,0,could not calculate regression		,could not calculate regression		,execution time: 0.000385 s
+18,sorted	,1000,natural_merge,1,0,could not calculate regression		,could not calculate regression		,execution time: 0.000976 s
+19,sorted	,1500,natural_merge,1,0,could not calculate regression		,could not calculate regression		,execution time: 0.000000 s
+20,sorted	,2000,natural_merge,1,0,could not calculate regression		,could not calculate regression		,execution time: 0.000000 s
+21,sorted	,50,2-way_merge,133,133, y = 1.0016 (x) ^ 1.2266 w/ correlation 100.0 %, y = 1.0016 (x) ^ 1.2266 w/ correlation 100.0 %,execution time: 0.001060 s
+22,sorted	,500,2-way_merge,2216,2216, y = 1.0016 (x) ^ 1.2266 w/ correlation 100.0 %, y = 1.0016 (x) ^ 1.2266 w/ correlation 100.0 %,execution time: 0.011688 s
+23,sorted	,1000,2-way_merge,4932,4932, y = 1.0016 (x) ^ 1.2266 w/ correlation 100.0 %, y = 1.0016 (x) ^ 1.2266 w/ correlation 100.0 %,execution time: 0.023777 s
+24,sorted	,1500,2-way_merge,7664,7664, y = 1.0016 (x) ^ 1.2266 w/ correlation 100.0 %, y = 1.0016 (x) ^ 1.2266 w/ correlation 100.0 %,execution time: 0.025001 s
+25,sorted	,2000,2-way_merge,10864,10864, y = 1.0016 (x) ^ 1.2266 w/ correlation 100.0 %, y = 1.0016 (x) ^ 1.2266 w/ correlation 100.0 %,execution time: 0.025944 s
+26,sorted	,50,3-way_merge,171,126, y = 1.0012 (x) ^ 1.2604 w/ correlation 100.0 %, y = 1.0006 (x) ^ 1.2112 w/ correlation 100.0 %,execution time: 0.000000 s
+27,sorted	,500,3-way_merge,2790,1986, y = 1.0012 (x) ^ 1.2604 w/ correlation 100.0 %, y = 1.0006 (x) ^ 1.2112 w/ correlation 100.0 %,execution time: 0.007748 s
+28,sorted	,1000,3-way_merge,6187,4352, y = 1.0012 (x) ^ 1.2604 w/ correlation 100.0 %, y = 1.0006 (x) ^ 1.2112 w/ correlation 100.0 %,execution time: 0.030958 s
+29,sorted	,1500,3-way_merge,9877,6963, y = 1.0012 (x) ^ 1.2604 w/ correlation 100.0 %, y = 1.0006 (x) ^ 1.2112 w/ correlation 100.0 %,execution time: 0.036972 s
+30,sorted	,2000,3-way_merge,13441,9476, y = 1.0012 (x) ^ 1.2604 w/ correlation 100.0 %, y = 1.0006 (x) ^ 1.2112 w/ correlation 100.0 %,execution time: 0.027874 s
+31,sorted	,50,heap_sort,644,543, y = 1.0035 (x) ^ 1.4615 w/ correlation 100.0 %, y = 1.0031 (x) ^ 1.4367 w/ correlation 100.0 %,execution time: 0.001301 s
+32,sorted	,500,heap_sort,11424,9567, y = 1.0035 (x) ^ 1.4615 w/ correlation 100.0 %, y = 1.0031 (x) ^ 1.4367 w/ correlation 100.0 %,execution time: 0.014009 s
+33,sorted	,1000,heap_sort,25926,21672, y = 1.0035 (x) ^ 1.4615 w/ correlation 100.0 %, y = 1.0031 (x) ^ 1.4367 w/ correlation 100.0 %,execution time: 0.034412 s
+34,sorted	,1500,heap_sort,41426,34762, y = 1.0035 (x) ^ 1.4615 w/ correlation 100.0 %, y = 1.0031 (x) ^ 1.4367 w/ correlation 100.0 %,execution time: 0.069916 s
+35,sorted	,2000,heap_sort,57700,48151, y = 1.0035 (x) ^ 1.4615 w/ correlation 100.0 %, y = 1.0031 (x) ^ 1.4367 w/ correlation 100.0 %,execution time: 0.047997 s
+36,reverse,50,quicksort,625,674, y = 0.9978 (x) ^ 1.8055 w/ correlation 100.0 %, y = 0.9978 (x) ^ 1.806 w/ correlation 100.0 %,execution time: 0.002997 s
+37,reverse,500,quicksort,62500,62999, y = 0.9978 (x) ^ 1.8055 w/ correlation 100.0 %, y = 0.9978 (x) ^ 1.806 w/ correlation 100.0 %,execution time: 0.113002 s
+38,reverse,1000,quicksort,250000,250999, y = 0.9978 (x) ^ 1.8055 w/ correlation 100.0 %, y = 0.9978 (x) ^ 1.806 w/ correlation 100.0 %,execution time: 0.315991 s
+39,reverse,1500,quicksort,562500,563999, y = 0.9978 (x) ^ 1.8055 w/ correlation 100.0 %, y = 0.9978 (x) ^ 1.806 w/ correlation 100.0 %,execution time: 0.907118 s
+40,reverse,2000,quicksort,1000000,1001999, y = 0.9978 (x) ^ 1.8055 w/ correlation 100.0 %, y = 0.9978 (x) ^ 1.806 w/ correlation 100.0 %,execution time: 0.809881 s
+41,reverse,50,quicksort_rand,141,174, y = 1.0042 (x) ^ 1.2384 w/ correlation 100.0 %, y = 1.0043 (x) ^ 1.255 w/ correlation 100.0 %,execution time: 0.000997 s
+42,reverse,500,quicksort_rand,3001,3342, y = 1.0042 (x) ^ 1.2384 w/ correlation 100.0 %, y = 1.0043 (x) ^ 1.255 w/ correlation 100.0 %,execution time: 0.007187 s
+43,reverse,1000,quicksort_rand,5623,6317, y = 1.0042 (x) ^ 1.2384 w/ correlation 100.0 %, y = 1.0043 (x) ^ 1.255 w/ correlation 100.0 %,execution time: 0.009000 s
+44,reverse,1500,quicksort_rand,8013,9038, y = 1.0042 (x) ^ 1.2384 w/ correlation 100.0 %, y = 1.0043 (x) ^ 1.255 w/ correlation 100.0 %,execution time: 0.008852 s
+45,reverse,2000,quicksort_rand,11158,12527, y = 1.0042 (x) ^ 1.2384 w/ correlation 100.0 %, y = 1.0043 (x) ^ 1.255 w/ correlation 100.0 %,execution time: 0.011382 s
+46,reverse,50,quicksort_mot,245,289, y = 0.996 (x) ^ 1.6513 w/ correlation 100.0 %, y = 0.9961 (x) ^ 1.6527 w/ correlation 100.0 %,execution time: 0.001024 s
+47,reverse,500,quicksort_mot,20856,21340, y = 0.996 (x) ^ 1.6513 w/ correlation 100.0 %, y = 0.9961 (x) ^ 1.6527 w/ correlation 100.0 %,execution time: 0.022973 s
+48,reverse,1000,quicksort_mot,83348,84330, y = 0.996 (x) ^ 1.6513 w/ correlation 100.0 %, y = 0.9961 (x) ^ 1.6527 w/ correlation 100.0 %,execution time: 0.100611 s
+49,reverse,1500,quicksort_mot,187287,188768, y = 0.996 (x) ^ 1.6513 w/ correlation 100.0 %, y = 0.9961 (x) ^ 1.6527 w/ correlation 100.0 %,execution time: 0.141006 s
+50,reverse,2000,quicksort_mot,333166,335147, y = 0.996 (x) ^ 1.6513 w/ correlation 100.0 %, y = 0.9961 (x) ^ 1.6527 w/ correlation 100.0 %,execution time: 0.263680 s
+51,reverse,50,natural_merge,344,294, y = 1.0022 (x) ^ 1.3408 w/ correlation 100.0 %, y = 1.0019 (x) ^ 1.3278 w/ correlation 100.0 %,execution time: 0.000985 s
+52,reverse,500,natural_merge,4992,4492, y = 1.0022 (x) ^ 1.3408 w/ correlation 100.0 %, y = 1.0019 (x) ^ 1.3278 w/ correlation 100.0 %,execution time: 0.003001 s
+53,reverse,1000,natural_merge,10984,9984, y = 1.0022 (x) ^ 1.3408 w/ correlation 100.0 %, y = 1.0019 (x) ^ 1.3278 w/ correlation 100.0 %,execution time: 0.006994 s
+54,reverse,1500,natural_merge,17492,15992, y = 1.0022 (x) ^ 1.3408 w/ correlation 100.0 %, y = 1.0019 (x) ^ 1.3278 w/ correlation 100.0 %,execution time: 0.010225 s
+55,reverse,2000,natural_merge,23968,21968, y = 1.0022 (x) ^ 1.3408 w/ correlation 100.0 %, y = 1.0019 (x) ^ 1.3278 w/ correlation 100.0 %,execution time: 0.012002 s
+56,reverse,50,2-way_merge,153,153, y = 1.0001 (x) ^ 1.234 w/ correlation 100.0 %, y = 1.0001 (x) ^ 1.234 w/ correlation 100.0 %,execution time: 0.000781 s
+57,reverse,500,2-way_merge,2272,2272, y = 1.0001 (x) ^ 1.234 w/ correlation 100.0 %, y = 1.0001 (x) ^ 1.234 w/ correlation 100.0 %,execution time: 0.005007 s
+58,reverse,1000,2-way_merge,5044,5044, y = 1.0001 (x) ^ 1.234 w/ correlation 100.0 %, y = 1.0001 (x) ^ 1.234 w/ correlation 100.0 %,execution time: 0.009004 s
+59,reverse,1500,2-way_merge,8288,8288, y = 1.0001 (x) ^ 1.234 w/ correlation 100.0 %, y = 1.0001 (x) ^ 1.234 w/ correlation 100.0 %,execution time: 0.018074 s
+60,reverse,2000,2-way_merge,11088,11088, y = 1.0001 (x) ^ 1.234 w/ correlation 100.0 %, y = 1.0001 (x) ^ 1.234 w/ correlation 100.0 %,execution time: 0.017001 s
+61,reverse,50,3-way_merge,133,133, y = 1.0008 (x) ^ 1.2135 w/ correlation 100.0 %, y = 1.0008 (x) ^ 1.2135 w/ correlation 100.0 %,execution time: 0.001058 s
+62,reverse,500,3-way_merge,2021,2021, y = 1.0008 (x) ^ 1.2135 w/ correlation 100.0 %, y = 1.0008 (x) ^ 1.2135 w/ correlation 100.0 %,execution time: 0.001992 s
+63,reverse,1000,3-way_merge,4436,4436, y = 1.0008 (x) ^ 1.2135 w/ correlation 100.0 %, y = 1.0008 (x) ^ 1.2135 w/ correlation 100.0 %,execution time: 0.009982 s
+64,reverse,1500,3-way_merge,7060,7060, y = 1.0008 (x) ^ 1.2135 w/ correlation 100.0 %, y = 1.0008 (x) ^ 1.2135 w/ correlation 100.0 %,execution time: 0.011929 s
+65,reverse,2000,3-way_merge,9848,9848, y = 1.0008 (x) ^ 1.2135 w/ correlation 100.0 %, y = 1.0008 (x) ^ 1.2135 w/ correlation 100.0 %,execution time: 0.014119 s
+66,reverse,50,heap_sort,430,373, y = 1.0023 (x) ^ 1.4322 w/ correlation 100.0 %, y = 1.0021 (x) ^ 1.4099 w/ correlation 100.0 %,execution time: 0.000944 s
+67,reverse,500,heap_sort,8968,7661, y = 1.0023 (x) ^ 1.4322 w/ correlation 100.0 %, y = 1.0021 (x) ^ 1.4099 w/ correlation 100.0 %,execution time: 0.005231 s
+68,reverse,1000,heap_sort,20680,17657, y = 1.0023 (x) ^ 1.4322 w/ correlation 100.0 %, y = 1.0021 (x) ^ 1.4099 w/ correlation 100.0 %,execution time: 0.016592 s
+69,reverse,1500,heap_sort,34102,29074, y = 1.0023 (x) ^ 1.4322 w/ correlation 100.0 %, y = 1.0021 (x) ^ 1.4099 w/ correlation 100.0 %,execution time: 0.017998 s
+70,reverse,2000,heap_sort,47568,40493, y = 1.0023 (x) ^ 1.4322 w/ correlation 100.0 %, y = 1.0021 (x) ^ 1.4099 w/ correlation 100.0 %,execution time: 0.032882 s
+71,random	,50,quicksort,156,188, y = 0.9996 (x) ^ 1.2348 w/ correlation 100.0 %, y = 1.0001 (x) ^ 1.2513 w/ correlation 100.0 %,execution time: 0.000938 s
+72,random	,500,quicksort,2096,2426, y = 0.9996 (x) ^ 1.2348 w/ correlation 100.0 %, y = 1.0001 (x) ^ 1.2513 w/ correlation 100.0 %,execution time: 0.006480 s
+73,random	,1000,quicksort,5021,5685, y = 0.9996 (x) ^ 1.2348 w/ correlation 100.0 %, y = 1.0001 (x) ^ 1.2513 w/ correlation 100.0 %,execution time: 0.005000 s
+74,random	,1500,quicksort,8412,9412, y = 0.9996 (x) ^ 1.2348 w/ correlation 100.0 %, y = 1.0001 (x) ^ 1.2513 w/ correlation 100.0 %,execution time: 0.010007 s
+75,random	,2000,quicksort,11192,12530, y = 0.9996 (x) ^ 1.2348 w/ correlation 100.0 %, y = 1.0001 (x) ^ 1.2513 w/ correlation 100.0 %,execution time: 0.009000 s
+76,random	,50,quicksort_rand,124,159, y = 0.997 (x) ^ 1.2456 w/ correlation 100.0 %, y = 0.9978 (x) ^ 1.261 w/ correlation 100.0 %,execution time: 0.000000 s
+77,random	,500,quicksort_rand,2776,3115, y = 0.997 (x) ^ 1.2456 w/ correlation 100.0 %, y = 0.9978 (x) ^ 1.261 w/ correlation 100.0 %,execution time: 0.009349 s
+78,random	,1000,quicksort_rand,5149,5818, y = 0.997 (x) ^ 1.2456 w/ correlation 100.0 %, y = 0.9978 (x) ^ 1.261 w/ correlation 100.0 %,execution time: 0.011001 s
+79,random	,1500,quicksort_rand,9490,10485, y = 0.997 (x) ^ 1.2456 w/ correlation 100.0 %, y = 0.9978 (x) ^ 1.261 w/ correlation 100.0 %,execution time: 0.011785 s
+80,random	,2000,quicksort_rand,12683,14013, y = 0.997 (x) ^ 1.2456 w/ correlation 100.0 %, y = 0.9978 (x) ^ 1.261 w/ correlation 100.0 %,execution time: 0.012001 s
+81,random	,50,quicksort_mot,171,204, y = 1.0005 (x) ^ 1.2686 w/ correlation 100.0 %, y = 1.001 (x) ^ 1.2818 w/ correlation 100.0 %,execution time: 0.001631 s
+82,random	,500,quicksort_mot,2582,2922, y = 1.0005 (x) ^ 1.2686 w/ correlation 100.0 %, y = 1.001 (x) ^ 1.2818 w/ correlation 100.0 %,execution time: 0.008368 s
+83,random	,1000,quicksort_mot,6459,7137, y = 1.0005 (x) ^ 1.2686 w/ correlation 100.0 %, y = 1.001 (x) ^ 1.2818 w/ correlation 100.0 %,execution time: 0.005998 s
+84,random	,1500,quicksort_mot,10601,11598, y = 1.0005 (x) ^ 1.2686 w/ correlation 100.0 %, y = 1.001 (x) ^ 1.2818 w/ correlation 100.0 %,execution time: 0.010468 s
+85,random	,2000,quicksort_mot,13535,14856, y = 1.0005 (x) ^ 1.2686 w/ correlation 100.0 %, y = 1.001 (x) ^ 1.2818 w/ correlation 100.0 %,execution time: 0.011591 s
+86,random	,50,natural_merge,270,244, y = 1.0017 (x) ^ 1.3207 w/ correlation 100.0 %, y = 1.0015 (x) ^ 1.3134 w/ correlation 100.0 %,execution time: 0.000000 s
+87,random	,500,natural_merge,4243,3992, y = 1.0017 (x) ^ 1.3207 w/ correlation 100.0 %, y = 1.0015 (x) ^ 1.3134 w/ correlation 100.0 %,execution time: 0.005994 s
+88,random	,1000,natural_merge,9460,8970, y = 1.0017 (x) ^ 1.3207 w/ correlation 100.0 %, y = 1.0015 (x) ^ 1.3134 w/ correlation 100.0 %,execution time: 0.010000 s
+89,random	,1500,natural_merge,15239,14489, y = 1.0017 (x) ^ 1.3207 w/ correlation 100.0 %, y = 1.0015 (x) ^ 1.3134 w/ correlation 100.0 %,execution time: 0.009998 s
+90,random	,2000,natural_merge,20973,19969, y = 1.0017 (x) ^ 1.3207 w/ correlation 100.0 %, y = 1.0015 (x) ^ 1.3134 w/ correlation 100.0 %,execution time: 0.013043 s
+91,random	,50,2-way_merge,218,218, y = 1.0016 (x) ^ 1.3085 w/ correlation 100.0 %, y = 1.0016 (x) ^ 1.3085 w/ correlation 100.0 %,execution time: 0.000997 s
+92,random	,500,2-way_merge,3853,3853, y = 1.0016 (x) ^ 1.3085 w/ correlation 100.0 %, y = 1.0016 (x) ^ 1.3085 w/ correlation 100.0 %,execution time: 0.011909 s
+93,random	,1000,2-way_merge,8692,8692, y = 1.0016 (x) ^ 1.3085 w/ correlation 100.0 %, y = 1.0016 (x) ^ 1.3085 w/ correlation 100.0 %,execution time: 0.010093 s
+94,random	,1500,2-way_merge,13950,13950, y = 1.0016 (x) ^ 1.3085 w/ correlation 100.0 %, y = 1.0016 (x) ^ 1.3085 w/ correlation 100.0 %,execution time: 0.040003 s
+95,random	,2000,2-way_merge,19420,19420, y = 1.0016 (x) ^ 1.3085 w/ correlation 100.0 %, y = 1.0016 (x) ^ 1.3085 w/ correlation 100.0 %,execution time: 0.019961 s
+96,random	,50,3-way_merge,207,156, y = 1.0016 (x) ^ 1.3002 w/ correlation 100.0 %, y = 1.0009 (x) ^ 1.2531 w/ correlation 100.0 %,execution time: 0.001002 s
+97,random	,500,3-way_merge,3655,2649, y = 1.0016 (x) ^ 1.3002 w/ correlation 100.0 %, y = 1.0009 (x) ^ 1.2531 w/ correlation 100.0 %,execution time: 0.010000 s
+98,random	,1000,3-way_merge,8195,5847, y = 1.0016 (x) ^ 1.3002 w/ correlation 100.0 %, y = 1.0009 (x) ^ 1.2531 w/ correlation 100.0 %,execution time: 0.006183 s
+99,random	,1500,3-way_merge,13142,9412, y = 1.0016 (x) ^ 1.3002 w/ correlation 100.0 %, y = 1.0009 (x) ^ 1.2531 w/ correlation 100.0 %,execution time: 0.028584 s
+100,random	,2000,3-way_merge,18349,13113, y = 1.0016 (x) ^ 1.3002 w/ correlation 100.0 %, y = 1.0009 (x) ^ 1.2531 w/ correlation 100.0 %,execution time: 0.020995 s
+101,random	,50,heap_sort,508,440, y = 1.0032 (x) ^ 1.4476 w/ correlation 100.0 %, y = 1.0029 (x) ^ 1.4244 w/ correlation 100.0 %,execution time: 0.001996 s
+102,random	,500,heap_sort,10170,8626, y = 1.0032 (x) ^ 1.4476 w/ correlation 100.0 %, y = 1.0029 (x) ^ 1.4244 w/ correlation 100.0 %,execution time: 0.013004 s
+103,random	,1000,heap_sort,23382,19823, y = 1.0032 (x) ^ 1.4476 w/ correlation 100.0 %, y = 1.0029 (x) ^ 1.4244 w/ correlation 100.0 %,execution time: 0.009725 s
+104,random	,1500,heap_sort,37642,31885, y = 1.0032 (x) ^ 1.4476 w/ correlation 100.0 %, y = 1.0029 (x) ^ 1.4244 w/ correlation 100.0 %,execution time: 0.047933 s
+105,random	,2000,heap_sort,52668,44484, y = 1.0032 (x) ^ 1.4476 w/ correlation 100.0 %, y = 1.0029 (x) ^ 1.4244 w/ correlation 100.0 %,execution time: 0.034369 s
